@@ -4,7 +4,7 @@ const Link = ({route}) => {
     return (
    
              <div className='flex gap-5'>
-             <li>
+             <li className='hover:bg-black hover:text-white '>
                <a href={route.path}>{route.name}</a>
                 </li>
             
